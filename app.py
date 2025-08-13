@@ -1,10 +1,7 @@
 from flask import Flask, jsonify, request
 from googleapiclient.discovery import build
 import os
-from dotenv import load_dotenv
 
-# Завантаження змінних з .env
-load_dotenv()
 
 # Імпорт баз знань
 import gem_knowledge_en as kn_en
